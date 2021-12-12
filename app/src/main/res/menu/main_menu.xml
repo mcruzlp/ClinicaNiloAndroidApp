@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mnuAddPatient"
+        android:icon="@drawable/ic_add"
+        android:title=""
+        app:showAsAction="always|withText" />
+
+    <!--<item
+        android:id="@+id/mnuAddCitas"
+        android:icon="@drawable/ic_addappoint"
+        android:title=""
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/mnuPerfil"
+        android:title="@string/btn_perfil"
+        app:showAsAction="never"
+        />-->
+
+    <item
+        android:id="@+id/mnuSalir"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/btn_salir"
+        app:showAsAction="always|withText"
+        />
+
+</menu>

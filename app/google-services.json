@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "956246152120",
+    "project_id": "clinicanilo-94c6f",
+    "storage_bucket": "clinicanilo-94c6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956246152120:android:f88240772ae0f0041b354d",
+        "android_client_info": {
+          "package_name": "psp.proyectos.clinicanilo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956246152120-0knc0oog6k8lff3d3l6af3psao93skha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "psp.proyectos.clinicanilo",
+            "certificate_hash": "9754f3ddfea18ef7bf5a648e922b5496d628cef9"
+          }
+        },
+        {
+          "client_id": "956246152120-06lt7qlatmpnubk2hfmb2obgiqhp4ktq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsW2a7_NrQ-i4Lz5FpyyIA8nolAyvWOHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956246152120-06lt7qlatmpnubk2hfmb2obgiqhp4ktq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

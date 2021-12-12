@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="niloblue">#2196F3</color>
+    <color name="nilodarkblue">#124E7E</color>
+    <color name="nilolightblue">#7EBAEA</color>
+    <color name="nilolightgrey">#B1B1B1</color>
+    <color name="nilodarkgrey">#4C4C4C</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
