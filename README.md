@@ -1,6 +1,6 @@
 # ClinicaNiloAndroidApp
 
-<img width="240px" src="./android-logo-5-2.png"> <img width="200px" src="./Kotlin_Icon.png">
+<img width="200px" src="./Kotlin_Icon.png"> <img width="240px" src="./android-logo-5-2.png"> 
 
 
 Aplicación desarrollada con Kotlin en AndroidStudio para la primera evaluación de la asignatura de Programación Multimedia en Dispositivos Móviles del CFGS de Desarrollo de Aplicaciones Multiplataforma (IES Campanillas).
