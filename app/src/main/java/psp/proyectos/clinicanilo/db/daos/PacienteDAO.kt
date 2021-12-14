@@ -27,7 +27,7 @@ interface PacienteDAO {
     fun countPacientes(): Int
 
     @Query("SELECT * FROM paciente;")
-    public fun getPaciente():MutableList<Paciente>
+    fun getPaciente():MutableList<Paciente>
 
     @Query("SELECT * FROM paciente WHERE idPac = :id")
     fun getPacienteById(id: Int): Paciente

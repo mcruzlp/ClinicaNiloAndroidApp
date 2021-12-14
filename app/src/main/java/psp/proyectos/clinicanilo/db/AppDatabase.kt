@@ -9,7 +9,7 @@ import psp.proyectos.clinicanilo.db.entity.Paciente
 import psp.proyectos.clinicanilo.db.entity.Usuario
 
 
-@Database(entities = arrayOf(Usuario::class, Paciente::class), version = 2)
+@Database(entities = [Usuario::class, Paciente::class], version = 2)
 abstract class AppDatabase: RoomDatabase() {
 
     abstract fun getPacienteDAO(): PacienteDAO

@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -25,31 +26,26 @@ class RegisterActivity : AppCompatActivity() {
         binding.btnRegistrar.setOnClickListener { registrar(it) }
     }
 
-    override fun onBackPressed()
-    {
+    override fun onBackPressed() {
         setResult(RESULT_CANCELED)
         super.onBackPressed()
     }
 
-    private fun registrar(view: View)
-    {
+    private fun registrar(view: View) {
         val email: String = binding.email.text.toString().trim()
         val pass : String = binding.password.text.toString().trim()
 
-        if ((email!="") && (pass!=""))
-            auth.createUserWithEmailAndPassword(email,pass)
-                .addOnCompleteListener(this) {
+        if ((email!="") && (pass!="")) Snackbar.make(view, R.string.err_email_pass, Snackbar.LENGTH_LONG).show()
 
-                    var msg = ""
-
-                    if (it.isSuccessful) msg = resources.getString(R.string.msg_registro)
-                    else msg = resources.getString(R.string.err_registro)
-
-                    val intencion = Intent()
-                    intencion.putExtra("_response", msg)
-                    setResult(RESULT_OK, intencion)
-                    finish()
-                }
+        auth.createUserWithEmailAndPassword(email,pass).addOnCompleteListener(this) {
+            if (it.isSuccessful) {
+                Snackbar.make(view, R.string.msg_registro, Snackbar.LENGTH_LONG).show()
+                val intencion = Intent(this, LoginActivity::class.java)
+                startActivity(intencion)
+            } else {
+                Snackbar.make(view, R.string.err_registro, Snackbar.LENGTH_LONG).show()
+            }
+        }
     }
 
 }

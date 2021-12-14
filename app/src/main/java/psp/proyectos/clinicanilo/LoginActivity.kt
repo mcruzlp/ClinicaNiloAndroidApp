@@ -24,7 +24,6 @@ class LoginActivity: AppCompatActivity() {
      * de la actividad de REGISTRO. Este registro debe realizarse SIEMPRE
      * antes de que la actividad de LOGIN se cree.
      */
-
     private val respuestaRegistro = registerForActivityResult(StartActivityForResult()) {
         /**
          * La lambda contiene la lógica que se ejecutará cuando la actividad

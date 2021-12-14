@@ -32,7 +32,7 @@ class PacienteAdaptador(var asignacion: MutableList<Paciente>): RecyclerView.Ada
     }
 
     /**
-     * Asocia el contenedor a un determinado elemento de la colección de datos
+     * Asocia el contenedor al elemento de la colección de datos que se le pasa en la asignación
      */
     override fun onBindViewHolder(holder: PacienteContenedor, position: Int) {
         holder.bindPaciente(asignacion[position])

@@ -11,6 +11,8 @@
         <entry key="..\:/Users/mcruz/AndroidStudioProjects/ClinicaNilo/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.36875" />
         <entry key="..\:/Users/mcruz/AndroidStudioProjects/ClinicaNilo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/mcruz/AndroidStudioProjects/ClinicaNilo/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.29635416666666664" />
+        <entry key="..\:/Users/mcruz/AndroidStudioProjects/ClinicaNilo/app/src/main/res/layout/activity_create.xml" value="0.33" />
+        <entry key="..\:/Users/mcruz/AndroidStudioProjects/ClinicaNilo/app/src/main/res/layout/activity_edit.xml" value="0.25" />
         <entry key="..\:/Users/mcruz/AndroidStudioProjects/ClinicaNilo/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/mcruz/AndroidStudioProjects/ClinicaNilo/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/mcruz/AndroidStudioProjects/ClinicaNilo/app/src/main/res/layout/activity_register.xml" value="0.33" />
@@ -19,6 +21,7 @@
         <entry key="..\:/Users/mcruz/AndroidStudioProjects/ClinicaNilo/app/src/main/res/layout/lista_citas_item.xml" value="0.27395833333333336" />
         <entry key="..\:/Users/mcruz/AndroidStudioProjects/ClinicaNilo/app/src/main/res/layout/lista_paciente_item.xml" value="0.5" />
         <entry key="..\:/Users/mcruz/AndroidStudioProjects/ClinicaNilo/app/src/main/res/layout/lista_pacientes_item.xml" value="0.33" />
+        <entry key="..\:/Users/mcruz/AndroidStudioProjects/ClinicaNilo/app/src/main/res/layout/pp.xml" value="0.23854166666666668" />
         <entry key="..\:/Users/mcruz/AndroidStudioProjects/ClinicaNilo/app/src/main/res/menu/item_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/mcruz/AndroidStudioProjects/ClinicaNilo/app/src/main/res/menu/main_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/mcruz/AndroidStudioProjects/ClinicaNilo/app/src/main/res/menu/menu.xml" value="0.36666666666666664" />

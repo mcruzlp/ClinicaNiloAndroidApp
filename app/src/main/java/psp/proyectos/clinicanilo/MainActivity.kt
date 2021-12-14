@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
-import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -35,8 +34,6 @@ class MainActivity : AppCompatActivity() {
         auth = Firebase.auth
         bd = AppDatabase.getAppDatabase(this)!!
 
-        //val usuario: Usuario = intent.extras?.getSerializable("_usuario") as Usuario
-
         datos = bd.getPacienteDAO().getPaciente()
 
         val gestionarPulsacionSencilla: (Paciente) -> Unit = {
@@ -46,11 +43,12 @@ class MainActivity : AppCompatActivity() {
         }
 
         val gestionarPulsacionLarga: (MenuItem, Paciente) -> Boolean = { item, paciente ->
-
             when(item.itemId) {
                 R.id.mnuEditar -> {
-                    Snackbar.make(binding.root, "la opción EDITAR se añadirá más adelante", Snackbar.LENGTH_LONG)
-                        .show()
+                    val intent = Intent(this, CreateActivity::class.java)
+                    intent.putExtra("_paciente",paciente.uid)
+                    startActivity(intent)
+                    true
                 }
                 R.id.mnuBorrar -> {
                     // eliminamos el paciente de la base de datos
@@ -110,8 +108,8 @@ class MainActivity : AppCompatActivity() {
         return when(item.itemId) {
 
             R.id.mnuAddPatient -> {
-                Snackbar.make(binding.root, "la opción AÑADIR se incluirá más adelante", Snackbar.LENGTH_LONG)
-                    .show()
+                val intent = Intent(this, CreateActivity::class.java)
+                startActivity(intent)
                 true
             }
 

@@ -13,6 +13,7 @@
     <string name="btn_editar">Editar</string>
     <string name="btn_borrar">Borrar</string>
     <string name="btn_volver">Volver</string>
+    <string name="btn_guardar">Guardar</string>
 
     <string name="err_registro">Se ha producido un error en el proceso de registro.</string>
     <string name="err_email_pass">Los campos email y contraseña no pueden estar vacíos</string>
