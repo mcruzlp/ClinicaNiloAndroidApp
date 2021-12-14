@@ -8,5 +8,10 @@ En esta primera versión, se podrán gestionar los datos de contacto de los paci
 Para acceder a la aplicación será necesario estar registrado con un email y una contraseña.
 Una vez iniciado sesión, se podrán añadir, editar y borrar pacientes.
 
-### Pantalla principal:
+### Capturas de pantalla:
 
+<img width="240px" src="./images/01_login.png">
+<img width="240px" src="./images/02_main.png">
+<img width="240px" src="./images/03_registro.png">
+<img width="240px" src="./images/04_nuevo.png">
+<img width="240px" src="./images/05_view.png">
